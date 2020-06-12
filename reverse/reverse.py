@@ -58,3 +58,4 @@ class LinkedList:
             return
         self.reverse_list(node.next_node)
         node.next_node.set_next(node)
+        node.set_next(None)
